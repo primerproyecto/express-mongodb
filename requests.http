@@ -1,0 +1,35 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Juan Carlos neandertal",
+    "age" : 75,
+    "email" : "mama@hotmail.com"
+}
+
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/644451c3ad8345901f20e4af HTTP/1.1
+
+
+###
+PUT http://localhost:3000/api/users/644451c3ad8345901f20e4af HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Begoña Tuñón yyy",
+    "age" : 75,
+    "email" : "mama@hotmail.com"
+}
+
+
+###
+
+DELETE http://localhost:3000/api/users/644451c3ad8345901f20e4af HTTP/1.1
+
+
+
